@@ -1,0 +1,10 @@
+config:
+  target: "http://192.168.50.30"
+  phases:
+    - duration: 10
+      arrivalRate: 1000
+scenarios:
+  - name: "Mi escenario de prueba"
+    flow:
+      - get:
+          url: "/"
